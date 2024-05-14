@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" user-scalable=no/>
+		<title>wx</title>
+		<style type="text/css">
+			body{
+			background-image: url(img/背景4.jpg);	
+			background-size: cover;
+	        background-position: top;
+	        flex: 1;
+				display: flex;
+			    display:flex;
+				justify-content:center;
+				align-content: center;
+			    overflow-x: hidden;
+	            overflow-y: hidden;
+	            width:100vw ;
+				height:106vh;   
+				margin-left: 0;
+				margin-right: 0;
+				margin-top: 0;
+				margin-bottom: 0;
+				/*border: dashed;*/
+			}
+			
+			#zong{
+				
+				background-clip: content-box;
+				width:96vw ;
+				height:106h;       
+				/*border: 1px solid green;*/
+				/*border-style: outset;*/
+				display:flex;
+				justify-content:flex-start;
+				align-content: center;
+				flex-wrap: wrap;
+				margin-left: 0.1vh;
+				margin-right: 0;
+				margin-top: 0;
+				margin-bottom: 0;
+				/*border: dashed;*/
+				/*换行代码*/
+				
+			}
+/*___________________________________________________________________________________________________*/					
+			header{
+				background-clip: content-box;
+				margin-top: 1.9vh;
+				margin-left: 1vw;
+				width:92.5vw ;
+				height:23vh;
+				/*border: 1px solid green;*/
+				border-style: solid;
+				border-color:  darkgreen;
+				border-radius: 5%;
+				flex-direction: column;
+				display:flex;
+				justify-content: center;
+				align-items: center;
+
+			}
+			.a a{
+				font-size: 4.5vw;
+				color: #000000;
+				/*text-shadow: black 0.1em 0.1em 0.1em;*/
+				font-weight: bold;
+				font-family: "宋体";
+				opacity: 1;
+				}
+			
+			.a{
+				background-clip: content-box;
+				background-color:rgba(200,230,100,0.7);
+				margin: 10px;
+				height:5vh;
+				width: 82vw;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			    text-align: center;
+				border: 1.2px solid green;
+				border-style: outset;
+				border-radius: 5%;	
+			}
+			.b a{
+				font-size: 4.5vw;
+				color: #008000;
+				/*text-shadow: black 0.1em 0.1em 0.1em;*/
+				font-weight: bold;
+				font-family: "宋体";
+				opacity: 1;
+				}
+			.b{
+				background-clip: content-box;
+				background-color:rgba(200,230,100,0.6);
+				display: flex;
+				flex-direction: column;
+			   justify-content: center;
+				align-items: center;
+			    text-align: center;
+				/*flex: 1;*/
+				margin: 10px;
+				height:25vh;
+				width: 82vw;
+				border: 1.2px solid green;
+				border-style: outset;
+				border-radius: 5%;
+			}		
+/*___________________________________________________________________________________________________*/					
+			.a2{
+				background-clip: content-box;
+				margin-top: 1.1vh;
+				width:96vw ;
+				height:8vh;
+				/*border: 1px solid green;
+				border-style: solid;*/
+				border-color:  darkgreen;
+				border-radius: 5%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			    text-align: center;
+				/*align-items: center;*/
+				
+			}
+			.jt{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			    text-align: center;
+				transition: transform 0.5s ease-in-out;
+				 animation: move 2s infinite;
+				 -webkit-animation: move 2s infinite ;
+			}		
+			@keyframes move {
+				50% {
+
+                    transform: translateY(-1vh);
+				    }
+                           }
+             @-webkit-keyframes mymove/* Safari and Chrome */
+
+            {
+
+                50% {
+
+                    transform: translateY(6vh);
+
+                }
+
+            }               	
+/*___________________________________________________________________________________________________*/			
+			footer{			
+				display:flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			    text-align: center;
+				padding-top:1vh;
+				margin-bottom: 1vh;
+			}
+			.a3{
+				display:flex;
+				justify-content: center;
+				align-items: center;
+			    text-align: center;
+				text-align: center;
+				border-style:ridge;
+				border: 2px solid green;
+				border-style: outset;
+			    border-radius: 5%;
+			    padding: 1.5vw;  
+			    margin-bottom: 1vh;
+			}	
+			 .toubu{
+		    	background-clip:content-box ;
+				background-color: green;
+				border-bottom:2px solid green;
+				background-color:rgba(0,152,50,0.57);
+				width:101vw ;
+				height:5vh;
+				margin-left: -2.1vw;
+				display:flex;
+				justify-content: center;
+				align-items: center;
+			    text-align: center;
+				font-size: 5vw;	
+				margin-top:-6vh;
+						
+				
+		    }
+		    .dibu{
+		    	background-clip:content-box ;
+				background-color: green;
+				border-top:2px solid green;
+				background-color:rgba(0,152,50,0.57);
+				width:101vw ;
+				height:5vh;
+				margin-top:0.3vh;
+				margin-left: -1.2vh;
+				display:flex;
+				justify-content:center;
+				align-content: center;
+				font-size: 5vw;
+				
+		    }
+		     .tb{
+				opacity: 0.9;
+				font-size: 5vw;
+				margin-top:0.1vh ;
+				margin-right: 0.8vw;
+				text-decoration: none;
+				color: #000000;
+			}
+			.db{
+				opacity: 0.9; 
+				font-size: 5vw;	
+				margin-top:0.8vh ;
+				margin-right: 1.1vw;
+				display: flex;
+				justify-content: center;
+				align-content: center;
+						
+			}
+/*___________________________________________________________________________________________________*/		
+		</style>
+	</head>
+	
+	<body><div id="zong">
+		<div class="zhuyao">
+			<div class="toubu"><a href="zhuye.html" class="tb" >- 返回点这里 -</a></div>
+		<header>
+			<div class="a"><a>长按下方二维码图片添加客服微信</a></div>
+			<div class="b"><a>五星好评后带截图来找微信<br />↓↓↓ 客服领取5元红包返现 ↓↓↓</a></div>
+		</header>
+			
+			<div class="a2"><img class="jt" src="img/箭头.png" style="width: 12vw;height: 7vh;"></div>
+		
+		<footer>
+			<div class="a3"><img src="img/微信.jpg" style="width: 90vw;height: 50vh;"></div>
+		</footer>
+		<div class="dibu"><p class="db">- ∧ -</p></div>
+	</div></body>
+</html>
